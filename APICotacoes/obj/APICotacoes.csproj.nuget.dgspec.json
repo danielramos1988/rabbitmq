@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\RabbitMQ-DotnetCore2-Selenium\\ExemploRabbitMQ\\APICotacoes\\APICotacoes.csproj": {}
+  },
+  "projects": {
+    "C:\\RabbitMQ-DotnetCore2-Selenium\\ExemploRabbitMQ\\APICotacoes\\APICotacoes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\RabbitMQ-DotnetCore2-Selenium\\ExemploRabbitMQ\\APICotacoes\\APICotacoes.csproj",
+        "projectName": "APICotacoes",
+        "projectPath": "C:\\RabbitMQ-DotnetCore2-Selenium\\ExemploRabbitMQ\\APICotacoes\\APICotacoes.csproj",
+        "packagesPath": "C:\\Users\\daniel.aplayers\\.nuget\\packages\\",
+        "outputPath": "C:\\RabbitMQ-DotnetCore2-Selenium\\ExemploRabbitMQ\\APICotacoes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.aplayers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[1.50.4, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
